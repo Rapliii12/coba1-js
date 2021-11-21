@@ -1,4 +1,7 @@
 const nama = "Rapli";
-let hobi = "Bola";
-let cara = `hobi ${nama} adalah ${hobi} `;
-console.log(cara);
+
+function getNama() {
+    return nama;
+}
+
+console.log(getNama());
